@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dine Turismo</title>
-    <link rel="stylesheet" href="estilo.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINE TURISMO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<!-- Navbar do projeto. -->
 <body>
-    <header>
-        <section class="sect"></section>
-        <nav>
-            <a class="logo" href="/">DINE TURISMO</a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="#">Viagens</a></li>
-                <li><a href="#">Hoteis</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+    <section class="form-container">
+        <div class="container">
+            <form action="">
+                <h2>Entre em contato</h2>
+                <p>Preencha o formulário abaixo e entraremos em contato com você.</p>
+                <div class="input-single">
+                    <input type="text" name="nomeContato" id="
+                nomeContato" class="input" autocomplete="off" required>
+                    <label for="nomeContato">Nome completo</label>
+                </div>
 
-        <!-- Colocando o java do projeto. -->
-        <script src="navbar.js"></script>
+                <div class="input-single">
+                    <input type="text" name="emailContato" id="
+                    emailContato" class="input" autocomplete="off" required>
+                    <label for="nomeContato">Seu e-mail</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="text" name="foneContato" id="
+                    foneContato" class="input" autocomplete="off" required>
+                    <label for="nomeContato">Seu telefone</label>
+                </div>
+
+                <div class="btn"><input type="submit" value="Enviar"></div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
