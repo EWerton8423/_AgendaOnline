@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .interface {
@@ -14,10 +14,24 @@ body {
     margin: 0 auto;
 }
 
+header .btn-contato button,
+.hero-site button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 20px;
+}
+
 /* Inserindo o estilo no header */
 header {
     width: 100%;
     padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 header .interface {
@@ -53,16 +67,52 @@ header .menu-desktop nav ul li a {
 header .btn-contato button {
     width: 140px;
     height: 50px;
-    font-size: 18px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    transition: .5s;
-    border-radius: 20px;
 }
 
-header .btn-contato button:hover {
+header .btn-contato button:hover, .hero-site button:hover{
     background-color: #fff;
     color: #000;
+}
+
+/* Estilo do hero do site */
+section.hero-site {
+    height: 96vh;
+    background-image: url(../images/paisagem-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 200;
+}
+
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 800;
+}
+
+.hero-site .txt-hero p {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero-site .txt-hero p {
+    display: block;
+}
+
+.hero-site button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
 }

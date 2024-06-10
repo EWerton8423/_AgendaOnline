@@ -38,6 +38,22 @@
         </div>
     </header>
 
+    <section class="hero-site">
+        <div class="interface">
+            <div class="txt-hero">
+                <h1>Descubra um
+                    <span>novo mundo</span>
+                </h1>
+                <p>Encontre destinos que ficarão para sempre em sua memória
+                    <span>Passeios de romarias e turismo</span>
+                </p>
+                <a href="#">
+                    <button>Quero conhecer</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
