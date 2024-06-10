@@ -4,38 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DINE TURISMO</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Dine Turismo</title>
 </head>
 
 <body>
-    <section class="form-container">
-        <div class="container">
-            <form action="">
-                <h2>Entre em contato</h2>
-                <p>Preencha o formulário abaixo e entraremos em contato com você.</p>
-                <div class="input-single">
-                    <input type="text" name="nomeContato" id="
-                nomeContato" class="input" autocomplete="off" required>
-                    <label for="nomeContato">Nome completo</label>
-                </div>
 
-                <div class="input-single">
-                    <input type="text" name="emailContato" id="
-                    emailContato" class="input" autocomplete="off" required>
-                    <label for="nomeContato">Seu e-mail</label>
-                </div>
+    <header>
+        <div class="interface">
+            <section class="logo">
+                <img src="images/logotipo1.png" alt="logotipo do site">
+            </section>
 
-                <div class="input-single">
-                    <input type="text" name="foneContato" id="
-                    foneContato" class="input" autocomplete="off" required>
-                    <label for="nomeContato">Seu telefone</label>
-                </div>
+            <section class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Destinos</a></li>
+                        <li><a href="#">Hóteis</a></li>
+                        <li><a href="#">Passagens</a></li>
+                    </ul>
+                </nav>
+            </section>
 
-                <div class="btn"><input type="submit" value="Enviar"></div>
-            </form>
+            <section class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </section>
         </div>
-    </section>
+    </header>
+
 </body>
 
 </html>
